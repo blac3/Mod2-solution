@@ -85,14 +85,20 @@
 	margin-bottom: 25px;
 }
 
+h1 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+h2 {
+	background-color: #e6ffe6;
+	margin: 5px 0px 0px 0px;
+}
+
 p {
-	padding: 25px 5px 25px 5px;
+	padding: 35px 5px 25px 5px;
 	margin: 0px;
 	background-color: #e6ffe6;
 }
 
-header {
-	margin-bottom: 15px;
-	text-align: center;
-}
 </style>
