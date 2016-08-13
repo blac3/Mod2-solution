@@ -1,10 +1,5 @@
 /** CSS file only **/
 <style>
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
 /*Desktop*/
 @media (min-width: 992px) {
@@ -13,18 +8,18 @@
 		border: 1px solid black;
 		box-sizing: border-box;
 	}
-.col-lg-1 {width: 8.33%;}
-.col-lg-2 {width: 16.66%;}
-.col-lg-3 {width: 25%;}
-.col-lg-4 {width: 33.33%;}
-.col-lg-5 {width: 41.66%;}
-.col-lg-6 {width: 50%;}
-.col-lg-7 {width: 58.33%;}
-.col-lg-8 {width: 66.66%;}
-.col-lg-9 {width: 75%;}
-.col-lg-10 {width:83.33%;}
-.col-lg-11 {width: 91.66%;}
-.col-lg-12 {width: 100%;}
+	.col-lg-1 {width: 8.33%;}
+	.col-lg-2 {width: 16.66%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-4 {width: 33.33%;}
+	.col-lg-5 {width: 41.66%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-7 {width: 58.33%;}
+	.col-lg-8 {width: 66.66%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-10 {width:83.33%;}
+	.col-lg-11 {width: 91.66%;}
+	.col-lg-12 {width: 100%;}
 }
 
 /*Tablet*/
@@ -71,18 +66,9 @@
 
 .div1 {
 	position: relative;
-	margin: 10px 0px 15px 0px;
-}
-
-.section {
-	position: absolute;
-	right: 0;
-	top: 0;
-	border: 1px red solid;
-	background-color: #ffa366;
-	color: black;
-	font-weight: 600;
-	margin-bottom: 25px;
+	margin: 0px 0px 15px 0px;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 h1 {
@@ -91,14 +77,22 @@ h1 {
 }
 
 h2 {
-	background-color: #e6ffe6;
-	margin: 5px 0px 0px 0px;
+	position: absolute;
+	right: 0;
+	top: -15px;
+	border: 1px red solid;
+	background-color: #ffa366;
+	color: black;
+	font-weight: 600;
+	margin-right: 5px;
+	padding: 2px;
 }
 
 p {
-	padding: 35px 5px 25px 5px;
+	padding: 45px 5px 25px 5px;
 	margin: 0px;
 	background-color: #e6ffe6;
+	box-sizing: border-box;
 }
 
 </style>
