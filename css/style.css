@@ -66,21 +66,40 @@
 	border: 2px solid black;
 	padding: 15px;
 	margin-right: 15px;
+	min-height: 150px;
+	text-overflow: auto;
+	font-size: 120%;
 }
+
 .chicken, .beef, .fish {
 	border: 1px solid black;
-	background-color: blue;
 	position: absolute;
 	right: 0;
 	top: 0;
 	margin-top: 0;
-
+	padding: 2px;
 }
+
+.chicken {
+	background-color: #ff00ff;
+}
+
+.beef {
+	background-color: #fe0066;
+}
+
+.fish {
+	background-color: #008ef9;
+}
+
 p {
 	background-color: #00ffff;
 	padding-top: 20px;
 }
 
+h1 {
+	text-align: center;
+}
 
 
 </style>
